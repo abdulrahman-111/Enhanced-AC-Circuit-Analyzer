@@ -2,7 +2,7 @@
 
 ## Description
 
-The **Enhanced AC Circuit Analyzer** is a Python-based tool developed for analyzing AC electrical circuits using Modified Nodal Analysis (MNA), graph theory, and linear algebra. Created by the team "5leha 3la Allah" for the Digital Systems Design course (ECE 115), this project automates circuit analysis by modeling circuits as graphs, transforming Kirchhoff's laws into matrix equations, and solving for node voltages, component currents, and equivalent impedances. The tool features a Tkinter-based GUI for adding components (resistors, capacitors, inductors), voltage sources, current sources, and nodes, with real-time circuit visualization and analysis results. It handles complex circuits, including series and parallel configurations, and supports AC sources with configurable waveforms, frequencies, and phases.
+The **Enhanced AC Circuit Analyzer** is a Python-based tool developed for analyzing AC electrical circuits using Modified Nodal Analysis (MNA), graph theory, and linear algebra. Created by the team "5leha 3la Allah" for the Linear Algebra Course , this project automates circuit analysis by modeling circuits as graphs, transforming Kirchhoff's laws into matrix equations, and solving for node voltages, component currents, and equivalent impedances. The tool features a Tkinter-based GUI for adding components (resistors, capacitors, inductors), voltage sources, current sources, and nodes, with real-time circuit visualization and analysis results. It handles complex circuits, including series and parallel configurations, and supports AC sources with configurable waveforms, frequencies, and phases.
 
 ## Project Structure
 
@@ -20,13 +20,7 @@ The **Enhanced AC Circuit Analyzer** is a Python-based tool developed for analyz
 - **Documentation**: Refer to `Linear_5leha_ala_allah.pptx` for theoretical background and methodology.
 
 ## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/enhanced-ac-circuit-analyzer.git
-   ```
-2. Ensure `linear_code.py` is in the project directory.
-3. Install required Python libraries:
+1. Install required Python libraries:
    ```bash
    pip install numpy matplotlib tkinter
    ```
@@ -94,14 +88,6 @@ The **Enhanced AC Circuit Analyzer** is a Python-based tool developed for analyz
   - Nonlinear components (e.g., diodes) require iterative methods.
   - High-frequency analysis may cause numerical instability.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make changes and commit (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
 
 ## Authors
 
@@ -111,15 +97,9 @@ Contributions are welcome! Please follow these steps:
   - Abdelrahman Essmat
   - Ahmed Zaytoon
   - Hesham Elkateb
-- **Instructor**: Dr. Hany M. Zamil
-- **Teaching Assistant**: Eng. Amr Al-Iraqi
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- Developed as part of the Digital Systems Design course (ECE 115).
-- Thanks to Dr. Hany M. Zamil and Eng. Amr Al-Iraqi for guidance.
+- Developed as part of the Linear Algebra Course.
 - The matrix-based approach and GUI design were inspired by the need to automate complex circuit analysis, as detailed in `Linear_5leha_ala_allah.pptx`.
